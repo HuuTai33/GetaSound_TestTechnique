@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- JS and Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Title -->
+    <title> Accueil </title>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JS file -->
+    <script src="js/jsFunction.js"></script>
+
+</head>
+
+<body class="p-3 mb-2 bg-light text-dark">
+<div class="p-3 mb-2 bg-white text-dark" style="height: 250px;">
+    <div class="row">
+        <div class="col-sm-6 offset-sm-3">
+            <br><br><br><br>
+            <p1 class="font-weight-bold"> Parlez nous de votre cible </p1>
+        </div>
+    </div>
+</div>
+
+<br><br>
+
+<div>
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+
+            <p2 class="font-weight-bold"> Cible </p2><br><br>
+
+            <button id="buttonB2B" onclick="functionB2BSelect()" type="button" class="btn btn-default btn-lg active">
+                <div2 class="font-weight-bold"> B2B </div2> <p><img src="images/factory.png" height="50"></p>
+            </button>
+            <button id="buttonB2C" onclick="functionB2CSelect()" type="button" class="btn btn-default btn-lg active">
+                <div2 class="font-weight-bold"> B2C </div2> <p><img src="images/factory.png" height="50"></p>
+            </button>
+
+            <div id="B2BSelect">
+                <br><br>
+
+                <div>
+
+                    <p2 class="font-weight-bold"> B2B </p2>
+                    <br><br>
+
+                    <button id="buttonEntreprise" onclick="functionEntrepriseSelect()" type="button" class="btn btn-default btn-lg active">
+                                <div2 class="font-weight-bold"> Entreprise </div2> <p><img src="images/boy.png" height="50"></p>
+                            </button>
+                    <button id="buttonAssociation" onclick="functionAssociationSelect()" type="button" class="btn btn-default btn-lg active">
+                                <div2 class="font-weight-bold"> Association </div2> <p><img src="images/boy.png" height="50"></p>
+                            </button>
+                    <button id="buttonPublic" onclick="functionPublicSelect()" type="button" class="btn btn-default btn-lg active">
+                                <div2 class="font-weight-bold"> Public </div2> <p><img src="images/boy.png" height="50"></p>
+                            </button>
+                    <button id="buttonAutres" onclick="functionAutresSelect()" type="button" class="btn btn-default btn-lg active">
+                                <div2 class="font-weight-bold"> Autres </div2> <p><img src="images/boy.png" height="50"></p>
+                            </button>
+
+                </div>
+                <br><br>
+
+                <div>
+
+                    <p2 class="font-weight-bold"> Plus d'informations </p2>
+                    <br>
+
+                    <divCount>
+                        <ul>
+                            <span id="counter-words-B2B"> 123 </span>
+                            <span id="counter-words2-B2B"> mot(s) </span>
+                        </ul>
+                    </divCount>
+
+                    <textarea id="counter-textB2B" class="form-control" rows="5"></textarea>
+
+                </div>
+            </div>
+            <div id="B2CSelect">
+                <br><br>
+
+                <div>
+
+                    <p2 class="font-weight-bold"> B2C </p2>
+                    <br><br>
+
+                    <button id="buttonHomme" onclick="functionHommeSelect()" type="button" class="btn btn-default btn-lg active">
+                        <div2 class="font-weight-bold"> Homme </div2> <p><img src="images/boy.png" height="50"></p>
+                    </button>
+                    <button id="buttonFemme" onclick="functionFemmeSelect()" type="button" class="btn btn-default btn-lg active">
+                        <div2 class="font-weight-bold"> Femme </div2> <p><img src="images/boy.png" height="50"></p>
+                    </button>
+                    <button id="buttonAutre" onclick="functionAutreSelect()" type="button" class="btn btn-default btn-lg active">
+                        <div2 class="font-weight-bold"> Autre </div2> <p><img src="images/boy.png" height="50"></p>
+                    </button>
+
+                </div>
+                <br><br>
+
+                <div>
+
+                    <p2 class="font-weight-bold"> Plus d'informations </p2>
+                    <br>
+
+                    <divCount>
+                        <ul>
+                            <span id="counter-words-B2C"> 123 </span>
+                            <span id="counter-words2-B2C"> mot(s) </span>
+                        </ul>
+                    </divCount>
+
+                    <textarea id="counter-textB2C" class="form-control" rows="5"></textarea>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

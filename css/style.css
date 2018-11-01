@@ -1,0 +1,41 @@
+/* General */
+body {
+    font-face: Roboto;
+}
+
+/* Titles */
+p1 {
+    font-size: 52px;
+}
+p2 {
+    font-size: 18px;
+    color: #808080;
+}
+div2 {
+    font-size: 15px;
+}
+
+/* Buttons */
+button {
+    background-color: white;
+    height: 120px;
+    width: 120px;
+
+    margin-right: 35px;
+    margin-bottom: 35px;
+
+}
+
+/* Toggle hide B2B and B2C */
+#B2BSelect {
+    display:none;
+}
+#B2CSelect {
+    display:none;
+}
+
+/* Counter textarea */
+divCount {
+    color: blue;
+    float: right;
+}
